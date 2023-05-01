@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReports.Core", "src\QuestReports.Core\QuestReports.Core.csproj", "{A62ABB79-C70C-4DE2-BA50-0AFA12CDC4A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{970B0A68-A30D-4476-A88D-C3CB2A14CBAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{69F476A4-174D-49E8-80A3-F1A6B3064723}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{CBC00DD3-DFC5-45D3-B6F5-5252A1CBAA00}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		Directory.Build.props = Directory.Build.props
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReports.Renderer", "src\QuestReports.Renderer\QuestReports.Renderer.csproj", "{89D69941-B7F3-44CA-AC88-7148CEC2A01B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReports.Preview", "src\QuestReports.Preview\QuestReports.Preview.csproj", "{0A8262AB-60A5-4FCD-B7EE-4041CD7451FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A62ABB79-C70C-4DE2-BA50-0AFA12CDC4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62ABB79-C70C-4DE2-BA50-0AFA12CDC4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62ABB79-C70C-4DE2-BA50-0AFA12CDC4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62ABB79-C70C-4DE2-BA50-0AFA12CDC4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D69941-B7F3-44CA-AC88-7148CEC2A01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D69941-B7F3-44CA-AC88-7148CEC2A01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D69941-B7F3-44CA-AC88-7148CEC2A01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D69941-B7F3-44CA-AC88-7148CEC2A01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8262AB-60A5-4FCD-B7EE-4041CD7451FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8262AB-60A5-4FCD-B7EE-4041CD7451FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8262AB-60A5-4FCD-B7EE-4041CD7451FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8262AB-60A5-4FCD-B7EE-4041CD7451FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A62ABB79-C70C-4DE2-BA50-0AFA12CDC4A4} = {970B0A68-A30D-4476-A88D-C3CB2A14CBAF}
+		{89D69941-B7F3-44CA-AC88-7148CEC2A01B} = {970B0A68-A30D-4476-A88D-C3CB2A14CBAF}
+		{0A8262AB-60A5-4FCD-B7EE-4041CD7451FD} = {970B0A68-A30D-4476-A88D-C3CB2A14CBAF}
+	EndGlobalSection
+EndGlobal
