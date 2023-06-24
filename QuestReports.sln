@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReports.Core", "src\QuestReports.Core\QuestReports.Core.csproj", "{8E1BE9C1-66F0-497C-ADF5-4BBA46A6DBAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3BC1F137-B0ED-41C1-937E-0FDB1D7965FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{06A42826-9F10-4F04-B396-94826884F738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReports.Tests", "tests\QuestReports.Tests\QuestReports.Tests.csproj", "{7D3A834A-549C-4530-BF76-D4DF265EE3F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{E4541DDC-F461-49C7-A7C2-B47636742502}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E1BE9C1-66F0-497C-ADF5-4BBA46A6DBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1BE9C1-66F0-497C-ADF5-4BBA46A6DBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1BE9C1-66F0-497C-ADF5-4BBA46A6DBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1BE9C1-66F0-497C-ADF5-4BBA46A6DBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3A834A-549C-4530-BF76-D4DF265EE3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3A834A-549C-4530-BF76-D4DF265EE3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3A834A-549C-4530-BF76-D4DF265EE3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3A834A-549C-4530-BF76-D4DF265EE3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E1BE9C1-66F0-497C-ADF5-4BBA46A6DBAC} = {3BC1F137-B0ED-41C1-937E-0FDB1D7965FD}
+		{7D3A834A-549C-4530-BF76-D4DF265EE3F6} = {06A42826-9F10-4F04-B396-94826884F738}
+	EndGlobalSection
+EndGlobal

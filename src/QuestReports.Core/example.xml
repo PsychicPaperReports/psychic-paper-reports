@@ -1,0 +1,16 @@
+﻿<document>
+    <page size="A4" orientaion="landscape" height="122" width="1231">
+        <container>
+            <for from = "0" to = "" variable = "i">
+                
+            </for>
+            <foreach iteration="$.items[*]">
+                <text>
+                    <span>
+                        Hueta {{Price}}
+                    </span>
+                </text>
+            </foreach>
+        </container>
+    </page>
+</document>
